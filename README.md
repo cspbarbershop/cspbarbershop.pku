@@ -1,1 +1,1 @@
-# cspbarbershop.pku.github.io
+# cspbarbershop.pku

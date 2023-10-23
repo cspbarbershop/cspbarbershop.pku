@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Barbershop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <h1>Selamat datang di Csp Barbershop</h1>
+      <p>Providing top-notch grooming services for the modern man.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Haircuts</li>
+        <li>Beard Trims</li>
+        <li>Shaves</li>
+        <li>Moustache Styling</li>
+      </ul>
+    </section>
+
+    <section id="pricing">
+      <h2>Pricing</h2>
+      <table>
+        <tr>
+          <th>Service</th>
+          <th>Price</th>
+        </tr>
+        <tr>
+          <td>Haircut</td>
+          <td>$25</td>
+        </tr>
+        <tr>
+          <td>Beard Trim</td>
+          <td>$15</td>
+        </tr>
+        <tr>
+          <td>Shave</td>
+          <td>$20</td>
+        </tr>
+        <tr>
+          <td>Moustache Styling</td>
+          <td>$10</td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="gallery">
+      <h2>Photo Gallery</h2>
+      <div class="gallery-container">
+        <!-- Add images of your barbershop, staff, and customers -->
+        <img src="barbershop.jpg" alt="Barbershop">
+        <img src="barber1.jpg" alt="Barber">
+        <img src="customer1.jpg" alt="Customer">
+      </div>
+    </section>
+
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <div class="testimonial">
+        <blockquote>
+          "Best barbershop in town! The service is excellent and the barbers truly know their craft."
+        </blockquote>
+        <cite>- John Doe</cite>
+      </div>
+      <div class="testimonial">
+        <blockquote>
+          "I've been going to Your Barbershop for years and they never disappoint. Highly recommended!"
+        </blockquote>
+        <cite>- Jane Smith</cite>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; Csp Barbershop | All rights reserved </p>
+    <ul class="social-media-links">
+      <li><a href="https://instagram.com/cspbarber_pku?igshid=MzRlODBiNWFlZA=="><img src="instagram.png" alt="Instagram"></a></li>
+    </ul>
+  </footer>
+  
+</body>
+</html>
